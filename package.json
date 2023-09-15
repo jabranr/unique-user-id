@@ -1,0 +1,29 @@
+{
+  "name": "unique-user-id",
+  "version": "1.0.0",
+  "description": "Generate unique id using timestamp and random number",
+  "type": "module",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "node ./test.js --test",
+    "test:watch": "npm t -- --watch"
+  },
+  "keywords": [
+    "unique id",
+    "user id",
+    "uid",
+    "uuid"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Jabran Rafique <hello@jabran.me>",
+  "license": "MIT License",
+  "prettier": "@jabranr-lab/prettier",
+  "devDependencies": {
+    "@jabranr-lab/prettier": "^1.2.1"
+  },
+  "volta": {
+    "node": "20.6.1"
+  }
+}
