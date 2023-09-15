@@ -5,8 +5,7 @@
   "type": "module",
   "exports": "./index.js",
   "scripts": {
-    "test": "node ./test.js --test",
-    "test:watch": "npm t -- --watch"
+    "test": "node ./test.js --test"
   },
   "keywords": [
     "unique id",
