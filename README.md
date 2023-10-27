@@ -1,6 +1,6 @@
 # Unique User ID
 
-Generate unique id using timestamp and random number.
+Generate a unique ID using the UNIX timestamp and random numbers.
 
 ## Usage
 
